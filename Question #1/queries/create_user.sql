@@ -1,0 +1,1 @@
+INSERT INTO users (name, phone_number) VALUES ($1, $2) RETURNING *;
